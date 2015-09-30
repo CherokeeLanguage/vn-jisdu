@@ -1,0 +1,5 @@
+Name: Rabbit, Coyote, Wolf, and Grizzly
+SName: Rabbit ...
+PK Name: com.cherokeelessons.vn.jisdu
+Version: 1.00 / 100
+
