@@ -15,42 +15,42 @@ style action_editor_button_text:
     size 20
     color '#000000'
 
-image rabbit = "lapin-300px"
-image coyote = "coyote--300px"
-image wolf = "wolf-2--300px"
-image bear = "grizzly-bear--300px"
+image rabbit = "images/characters/lapin-300px.png"
+image coyote = "images/characters/coyote--300px.png"
+image wolf = "images/characters/wolf-2--300px.png"
+image bear = "images/characters/grizzly-bear--300px.png"
 
 image side rabbit:
-    "portraits/p_Jisdu.png"
+    "images/portraits/p_Jisdu.png"
     xzoom -1.0
         
 image side coyote:
-    "portraits/p_Coyote.png"
+    "images/portraits/p_Coyote.png"
     xzoom -1.0
         
 image side wolf:
-    "portraits/p_Wolf.png"
+    "images/portraits/p_Wolf.png"
     xzoom -1.0
         
 image side bear:
-    "portraits/p_Bear.png"
+    "images/portraits/p_Bear.png"
     xzoom -1.0
     
 image bg_scene_mountains:
-    "landscapes/bg_main.png"
+    "images/landscapes/bg_main.png"
     
 image bg_scene_rabbit:
-    "landscapes/spring-thaw-2400px.png"
+    "images/landscapes/spring-thaw-2400px.png"
     alpha 1.0
 
 image bg_scene_trees_under:
-    "landscapes/trees-colorized-002-2400px.png"
+    "images/landscapes/trees-colorized-002-2400px.png"
     
 image bg_scene_trees_over:
-    "landscapes/trees-colorized-002-2400px-overlay.png"
+    "images/landscapes/trees-colorized-002-2400px-overlay.png"
     
 image prop_tree_limb:
-    "trees/perpaola-ramo-800px.png"
+    "images/trees/perpaola-ramo-800px.png"
     
 init python:
     renpy.music.register_channel("sfx1", "sfx", False)

@@ -180,9 +180,9 @@ screen main_menu():
     tag menu
     
     imagemap:
-        ground "ui/mm_ground.png"
-        idle "ui/mm_idle.png"
-        hover "ui/mm_hover.png"
+        ground "images/ui/mm_ground.png"
+        idle "images/ui/mm_idle.png"
+        hover "images/ui/mm_hover.png"
         
         #Inkscape coords are bottom up, so subtract Inkscape Y from height of image
         hotspot (8, 720-30-5*130, 380, 120) action Start()
